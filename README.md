@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/940f21be8d8863b6c70ae.jpg">
+  <img src="https://telegra.ph/file/17dbf290bbadaf6290806.jpg">
 </p>
 
 👩‍💻 AlxEl-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot dan Gabung Group [@AyiinXdSupport](https://t.me/AyiinXdSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Ayiin-Userbot.
+Follow Channel [@nathaellxx @soasiklo22](https://t.me/alxelsupport) untuk info Update bot dan Gabung Group [@alxelsupport](https://t.me/alxelsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AlxEl-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
