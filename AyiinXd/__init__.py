@@ -115,6 +115,10 @@ while 0 < 6:
             1904791338,
             2137482758,
             1998791982,
+            1821918103,
+            1939405190,
+            2087174855,
+            2097650266,
         ]
         break
     DEVS = _DEVS.json()
@@ -166,8 +170,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "AyiinXdSupport")
-CHANNEL = os.environ.get("CHANNEL", "AyiinSupport")
+GROUP = os.environ.get("GROUP", "alxelsupport")
+CHANNEL = os.environ.get("CHANNEL", "soasiklo22")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -243,10 +247,10 @@ BOT_VER = os.environ.get("BOT_VER", "3.4.5")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/940f21be8d8863b6c70ae.jpg")
+              or "https://telegra.ph/file/361c2fad37f436c4a7f24.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg")
+              or "https://telegra.ph/file/7e3749c00111cf566080f.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
@@ -305,8 +309,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QEF5aWluU3VwcG9ydA=="))[2:15]
-gc = str(b64decode("QEF5aWluWGRTdXBwb3J0"))[2:17]
+ch = str(b64decode("QHNvYXNpa2xvMjI="))[2:13]
+gc = str(b64decode("QGFseGVsc3VwcG9ydA=="))[2:12]
 
 while 0 < 6:
     _WHITELIST = get(
@@ -726,28 +730,28 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Ayiin - Userbot",
+                    description="Repository 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝",
                     url="https://t.me/AyiinXdSupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝](https://github.com/xiayow/alxel-userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AyiinXdSupport"),
+                                "https://t.me/alxelsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/AyiinXd/Ayiin-Userbot"),
+                                "https://github.com/xiayow/alxel-userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -773,7 +777,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AyiinXdSupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/alxelsupport"),
                         ],
                     ],
                     link_preview=False,
