@@ -185,7 +185,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/xiayow/alxel-userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -218,7 +218,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "AyiinXd")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "AlxEl")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✧")
@@ -725,7 +725,7 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@AyiinXdSupport"):
+                    "@alxelsupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
@@ -737,13 +737,13 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝",
-                    url="https://t.me/AyiinXdSupport",
+                    url="https://t.me/alxelsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝](https://github.com/xiayow/alxel-userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**alxel-userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AlxEl](https://t.me/im_el68)\n✧ **sᴜᴘᴘᴏʀᴛ :** @alxelsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝](https://github.com/xiayow/alxel-userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -759,8 +759,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Ayiin - Userbot",
-                    url="https://t.me/AyiinXdSupport",
+                    description="String alxel - userbot",
+                    url="https://t.me/alxelsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -798,8 +798,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Ayiin - Userbot",
-                    url="https://t.me/AyiinXdSupport",
+                    description="Lang alxel - userbot",
+                    url="https://t.me/alxelspport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -845,21 +845,21 @@ with bot:
                 result = builder.article(
                     title="✨ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ✨",
                     description="𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 | Telethon",
-                    url="https://t.me/AyiinSupport",
+                    url="https://t.me/alxelsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @AyiinSupport\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**alxel-userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @alxelspport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AyiinXdSupport"),
+                                "https://t.me/alxelsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/AyiinXd/Ayiin-Userbot"),
+                                "https://github.com/xiayow/alxel-userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -905,7 +905,7 @@ with bot:
             )
         )
         async def gback_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
+            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @alxel-userbot
                 # https://t.me/TelethonChat/115200
                 text = (
                     f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
@@ -1220,4 +1220,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @AyiinXdSupport » TAG @AyiinXd ATAU ADMIN LAINNYA » Info By: Ayiin-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @alxelsupport » TAG @im_el69 @aldiboy69 ATAU ADMIN LAINNYA » Info By: alxel-userbot {BOT_VER}")
