@@ -58,8 +58,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="Aʏɪɪɴ-Usᴇʀʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: Ayiin-Userbot\n\n» Support : @AyiinXdSupport\n» Support: @AyiinSupport",
+                title="𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 Lᴏɢs",
+                about="» Group log Created by: 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝\n\n» Support : @alxelsupport\n» Support: @aldiboy69",
                 megagroup=True,
             ),
         )
@@ -100,7 +100,7 @@ async def autobot():
     await bot.send_message(
         BOTLOG_CHATID, "**SABAR KENTOD LAGI BUAT ASSISTANT BOT LU DI @BotFather**"
     )
-    LOGS.info("TUNGGU SEBENTAR TOD. SEDANG MEMBUAT ASSISTANT BOT UNTUK ELU")
+    LOGS.info("TUNGGU SEBENTAR TOD. SEDANG MEMBUAT ASSISTANT BOT 𝙱𝚄𝙰𝚃 ELU")
     who = await bot.get_me()
     name = f"{who.first_name} Assistant Bot"
     if who.username:
@@ -218,7 +218,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @AyiinSupport ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @alxelsupport ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
