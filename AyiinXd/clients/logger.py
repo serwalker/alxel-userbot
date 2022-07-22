@@ -18,12 +18,12 @@ from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
-❏ ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+ALXEL - USERBOT BERHASIL DIAKTIFKAN TOD
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ Aʏɪɪɴ Vᴇʀsɪᴏɴ - {} •[{}]•
-├▹ Usᴇʀʙᴏᴛ Vᴇʀsɪᴏɴ - {}
+├▹ AlxEl Version - {} •[{}]•
+├▹ Userbot Version - {}
 ├▹ @{}
-├▹ Kᴇᴛɪᴋ {}alive Uɴᴛᴜᴋ Mᴇɴɢᴇᴄᴇᴋ Bᴏᴛ
+├▹ KETIK {}alive UNTUK MENGECEK BOT
 ╰╼┅━━━━━╍━━━━━┅╾
 """
 
