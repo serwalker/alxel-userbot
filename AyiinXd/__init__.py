@@ -211,7 +211,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "AyiinXd")
@@ -500,7 +500,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Ayiin-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -839,8 +839,8 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✨",
-                    description="Ayiin - Userbot | Telethon",
+                    title="✨ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ✨",
+                    description="𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 | Telethon",
                     url="https://t.me/AyiinSupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
