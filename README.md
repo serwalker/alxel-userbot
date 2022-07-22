@@ -1,11 +1,11 @@
  <h1 align="center">✨ 𝙰𝙻𝚡𝙴𝙻 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ✨</h1>
 
-<a href="https://github.com/AyiinXd/𝙰𝙻𝚡𝙴𝙻-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/AyiinXd/Ayiin-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/AyiinXd/Ayiin-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/stargazers)
+<a href="https://github.com/AyiinXd/𝙰𝙻𝚡𝙴𝙻-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝?&logo=github)](https://github.com/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝/stargazers)
 
 
 <p align="center">
@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/AyiinXd/Ayiin-Userbot`
+ • `git clone https://github.com/AyiinXd/𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝`
 
- • `cd Ayiin-Userbot`
+ • `cd 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Ayiin-Userbot`
+ • `screen -S 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝`
 
  • `bash start`
 
@@ -97,7 +97,7 @@ Follow Channel [@nathaellxx @soasiklo22](https://t.me/alxelsupport) untuk info U
 -  [Risman](https://github.com/mrismanaziz/Man-Userbot) :  Man-Userbot
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
--  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
+-  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : 𝙰𝙻𝚡𝙴𝙻-𝚄𝚜𝚎𝚛𝚋𝚘𝚝
 
 ## © Credits
 -  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
